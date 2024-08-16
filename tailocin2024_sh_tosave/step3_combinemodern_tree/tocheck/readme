@@ -1,0 +1,3 @@
+cumulative_positions.sh give the start and end of each haplotype section
+summaryTFAandHTFmap.sh summary the TFA and HTF mapping pattern of each sample
+fullinfoMSA.sh may be build a MSA with no Ns (not necessary maybe)

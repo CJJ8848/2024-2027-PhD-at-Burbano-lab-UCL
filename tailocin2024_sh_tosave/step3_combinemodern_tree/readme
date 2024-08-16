@@ -1,0 +1,9 @@
+handm_tree.sh  mergehandm_calculatecoveredlist.sh  modern85_extractfasta.sh 
+
+run modern85_extractfasta.sh then
+run mergehandm_calculatecoveredlist.sh to have the nonN coordinate list of all samples/
+Run mergehandm_calculatecoveredlist_maskexceptlongest.sh to have only the longest chunk (used to plot the coordinate figure)
+then handm_tree to have a tree
+
+Details of the strategy please refer to the notion note 'week 26 redo tailocin'
+
