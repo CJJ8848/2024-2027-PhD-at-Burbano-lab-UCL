@@ -1,0 +1,283 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    saunders-608-24.local (AVX512, FMA3, 92 GB RAM)
+Command: iqtree -s /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/handm_filtered_HTF_samples_clustalo.fasta -nt AUTO -bb 1000 -alrt 1000 -pre /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF
+Seed:    781642 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  8 01:09:36 2024
+Kernel:  AVX+FMA - auto-detect threads (48 CPU cores detected)
+
+Reading alignment file /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/handm_filtered_HTF_samples_clustalo.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 57 sequences with 668 columns, 201 distinct patterns
+279 parsimony-informative, 7 singleton sites, 382 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  109.OR_1990|HTF_p5.D5         0.00%    passed     94.01%
+   2  76.LTU_2009_S19|HTF_p21.F9    0.00%    passed     63.87%
+   3  HB0766|HTF_p21.F9             0.00%    passed     54.80%
+   4  PL0042|HTF_p25.A12            0.00%    passed     54.37%
+   5  PL0046|HTF_p21.F9             0.00%    passed     60.40%
+   6  PL0059|HTF_p21.F9             0.00%    passed     43.88%
+   7  PL0080|HTF_p25.A12            0.00%    passed     87.41%
+   8  PL0102|HTF_p25.A12            0.00%    passed     54.37%
+   9  PL0131|HTF_p5.D5              0.00%    passed     91.90%
+  10  PL0240|HTF_p21.F9             0.00%    passed     71.08%
+  11  p12.A11|HTF_p21.F9            0.00%    passed     69.24%
+  12  p12.E2|HTF_p25.C2             0.00%    passed     90.92%
+  13  p12.F2|HTF_p21.F9             0.00%    passed     69.24%
+  14  p12.G7|HTF_p25.A12            0.00%    passed     58.75%
+  15  p13.C1|HTF_p21.F9             0.00%    passed     54.26%
+  16  p13.C7|HTF_p5.D5              0.00%    passed     94.01%
+  17  p13.D10|HTF_p25.A12           0.00%    passed     58.57%
+  18  p13.F3|HTF_p7.G11             0.00%    passed     41.78%
+  19  p20.D4|HTF_p25.C2             0.00%    passed     68.36%
+  20  p20.G9|HTF_p21.F9             0.00%    passed     69.24%
+  21  p21.A8|HTF_p21.F9             0.00%    passed     69.24%
+  22  p21.E3|HTF_p21.F9             0.00%    passed     54.26%
+  23  p21.F1|HTF_p5.D5              0.00%    passed     94.01%
+  24  p21.F9|HTF_p21.F9             0.00%    passed     69.24%
+  25  p22.A8|HTF_p21.F9             0.00%    passed     54.26%
+  26  p22.B5|HTF_p21.F9             0.00%    passed     54.26%
+  27  p22.D1|HTF_p21.F9             0.00%    passed     69.24%
+  28  p22.D4|HTF_p26.D6             0.00%    passed     91.98%
+  29  p23.A3|HTF_p7.G11             0.00%    passed     59.76%
+  30  p24.H2|HTF_p7.G11             0.00%    passed     65.13%
+  31  p25.A12|HTF_p25.A12           0.00%    passed     54.93%
+  32  p25.B2|HTF_p25.C2             0.00%    passed     68.36%
+  33  p25.C11|HTF_p21.F9            0.00%    passed     69.24%
+  34  p25.C2|HTF_p25.C2             0.00%    passed     68.36%
+  35  p25.D2|HTF_p25.C2             0.00%    passed     68.36%
+  36  p26.B7|HTF_p25.C2             0.00%    passed     90.92%
+  37  p26.D6|HTF_p26.D6             0.00%    passed     91.98%
+  38  p26.E7|HTF_p23.B8             0.00%    passed     92.28%
+  39  p27.D6|HTF_p21.F9             0.00%    passed     60.40%
+  40  p27.F2|HTF_p25.A12            0.00%    passed     59.27%
+  41  p3.A3|HTF_p25.C2              0.00%    passed     68.36%
+  42  p3.F12|HTF_p25.C2             0.00%    passed     68.36%
+  43  p3.F8|HTF_p26.D6              0.00%    passed     94.96%
+  44  p3.G9|HTF_p25.A12             0.00%    passed     58.75%
+  45  p4.D2|HTF_p25.A12             0.00%    passed     66.98%
+  46  p4.E5|HTF_p21.F9              0.00%    passed     54.26%
+  47  p4.E6|HTF_p21.F9              0.00%    passed     54.26%
+  48  p5.C3|HTF_p21.F9              0.00%    passed     54.26%
+  49  p5.H11|HTF_p7.G11             0.00%    passed     73.65%
+  50  p6.A10|HTF_p25.C2             0.00%    passed     68.36%
+  51  p6.B9|HTF_p26.D6              0.00%    passed     91.98%
+  52  p7.G11|HTF_p7.G11             0.00%    passed     73.65%
+  53  p8.B3|HTF_p25.C2              0.00%    passed     68.36%
+  54  p8.B9|HTF_p5.D5               0.00%    passed     94.01%
+  55  p8.C7|HTF_p21.F9              0.00%    passed     52.81%
+  56  p8.E4|HTF_p25.A12             0.00%    passed     54.93%
+  57  p8.H7|HTF_p7.G11              0.00%    passed     74.00%
+****  TOTAL                         0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: p13.C7|HTF_p5.D5 is identical to 109.OR_1990|HTF_p5.D5 but kept for subsequent analysis
+NOTE: PL0102|HTF_p25.A12 is identical to PL0042|HTF_p25.A12 but kept for subsequent analysis
+NOTE: p27.D6|HTF_p21.F9 is identical to PL0046|HTF_p21.F9 but kept for subsequent analysis
+NOTE: p12.F2|HTF_p21.F9 is identical to p12.A11|HTF_p21.F9 but kept for subsequent analysis
+NOTE: p3.G9|HTF_p25.A12 is identical to p12.G7|HTF_p25.A12 but kept for subsequent analysis
+NOTE: p21.E3|HTF_p21.F9 is identical to p13.C1|HTF_p21.F9 but kept for subsequent analysis
+NOTE: p25.B2|HTF_p25.C2 is identical to p20.D4|HTF_p25.C2 but kept for subsequent analysis
+NOTE: p26.D6|HTF_p26.D6 is identical to p22.D4|HTF_p26.D6 but kept for subsequent analysis
+NOTE: p8.E4|HTF_p25.A12 is identical to p25.A12|HTF_p25.A12 but kept for subsequent analysis
+NOTE: p7.G11|HTF_p7.G11 is identical to p5.H11|HTF_p7.G11 but kept for subsequent analysis
+NOTE: 19 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: p21.F1|HTF_p5.D5 (identical to 109.OR_1990|HTF_p5.D5) is ignored but added at the end
+NOTE: p8.B9|HTF_p5.D5 (identical to 109.OR_1990|HTF_p5.D5) is ignored but added at the end
+NOTE: p20.G9|HTF_p21.F9 (identical to p12.A11|HTF_p21.F9) is ignored but added at the end
+NOTE: p21.A8|HTF_p21.F9 (identical to p12.A11|HTF_p21.F9) is ignored but added at the end
+NOTE: p21.F9|HTF_p21.F9 (identical to p12.A11|HTF_p21.F9) is ignored but added at the end
+NOTE: p22.D1|HTF_p21.F9 (identical to p12.A11|HTF_p21.F9) is ignored but added at the end
+NOTE: p25.C11|HTF_p21.F9 (identical to p12.A11|HTF_p21.F9) is ignored but added at the end
+NOTE: p22.A8|HTF_p21.F9 (identical to p13.C1|HTF_p21.F9) is ignored but added at the end
+NOTE: p22.B5|HTF_p21.F9 (identical to p13.C1|HTF_p21.F9) is ignored but added at the end
+NOTE: p4.E5|HTF_p21.F9 (identical to p13.C1|HTF_p21.F9) is ignored but added at the end
+NOTE: p4.E6|HTF_p21.F9 (identical to p13.C1|HTF_p21.F9) is ignored but added at the end
+NOTE: p5.C3|HTF_p21.F9 (identical to p13.C1|HTF_p21.F9) is ignored but added at the end
+NOTE: p25.C2|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p25.D2|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p3.A3|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p3.F12|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p6.A10|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p8.B3|HTF_p25.C2 (identical to p20.D4|HTF_p25.C2) is ignored but added at the end
+NOTE: p6.B9|HTF_p26.D6 (identical to p22.D4|HTF_p26.D6) is ignored but added at the end
+Alignment was printed to /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Measuring multi-threading efficiency up to 48 CPU cores
+Increase to 10 rounds for branch lengths
+2372 trees examined
+Threads: 1 / Time: 48.020 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11288
+Threads: 2 / Time: 47.618 sec / Speedup: 1.008 / Efficiency: 50% / LogL: -11288
+Threads: 3 / Time: 50.358 sec / Speedup: 0.954 / Efficiency: 32% / LogL: -11288
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3492.220
+Optimal log-likelihood: -3491.702
+Rate parameters:  A-C: 1.09985  A-G: 4.33069  A-T: 0.84985  C-G: 0.59350  C-T: 1.37370  G-T: 1.00000
+Base frequencies:  A: 0.193  C: 0.306  G: 0.281  T: 0.220
+Proportion of invariable sites: 0.285
+Gamma shape alpha: 0.511
+Parameters optimization took 1 rounds (0.026 sec)
+Time for fast ML tree search: 0.141 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 668) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         3660.588     81  7483.177     7505.846     7848.024
+  2  GTR+F+I       3524.825     82  7213.650     7236.918     7583.001
+  3  GTR+F+G4      3498.425     82  7160.850     7184.119     7530.202
+  4  GTR+F+I+G4    3491.250     83  7148.500     7172.377     7522.356
+  5  GTR+F+R2      3505.986     83  7177.972     7201.849     7551.828
+  6  GTR+F+R3      3473.472     85  7116.945     7142.065     7499.809
+  7  GTR+F+R4      3471.244     87  7116.489     7142.889     7508.362
+ 19  SYM+R3        3486.681     82  7137.362     7160.630     7506.714
+ 20  SYM+R4        3481.827     84  7131.654     7156.148     7510.014
+ 32  TVM+F+R3      3488.107     84  7144.213     7168.707     7522.573
+ 33  TVM+F+R4      3484.420     86  7140.841     7166.596     7528.209
+ 45  TVMe+R3       3498.604     81  7159.208     7181.877     7524.055
+ 46  TVMe+R4       3494.607     83  7155.214     7179.091     7529.070
+ 58  TIM3+F+R3     3473.537     83  7113.074     7136.950     7486.930
+ 59  TIM3+F+R4     3473.535     85  7117.069     7142.190     7499.934
+ 71  TIM3e+R3      3487.766     80  7135.531     7157.609     7495.874
+ 72  TIM3e+R4      3483.573     82  7131.146     7154.414     7500.498
+ 84  TIM2+F+R3     3473.526     83  7113.051     7136.928     7486.907
+ 85  TIM2+F+R4     3469.009     85  7108.018     7133.138     7490.882
+ 97  TIM2e+R3      3487.684     80  7135.368     7157.446     7495.711
+ 98  TIM2e+R4      3483.427     82  7130.854     7154.122     7500.205
+110  TIM+F+R3      3472.164     83  7110.327     7134.204     7484.183
+111  TIM+F+R4      3472.186     85  7114.372     7139.492     7497.236
+123  TIMe+R3       3486.592     80  7133.184     7155.262     7493.527
+124  TIMe+R4       3482.007     82  7128.013     7151.281     7497.365
+136  TPM3u+F+R3    3491.019     82  7146.038     7169.306     7515.389
+137  TPM3u+F+R4    3487.006     84  7142.013     7166.507     7520.373
+149  TPM3+F+R3     3491.019     82  7146.038     7169.306     7515.389
+150  TPM3+F+R4     3487.006     84  7142.013     7166.507     7520.373
+162  TPM2u+F+R3    3491.271     82  7146.541     7169.810     7515.893
+163  TPM2u+F+R4    3487.245     84  7142.489     7166.983     7520.850
+175  TPM2+F+R3     3491.271     82  7146.541     7169.810     7515.893
+176  TPM2+F+R4     3487.245     84  7142.489     7166.983     7520.850
+188  K3Pu+F+R3     3489.975     82  7143.950     7167.218     7513.301
+189  K3Pu+F+R4     3485.980     84  7139.959     7164.453     7518.319
+201  K3P+R3        3498.849     79  7155.699     7177.195     7511.538
+202  K3P+R4        3494.896     81  7151.792     7174.461     7516.640
+214  TN+F+R3       3474.522     82  7113.044     7136.312     7482.396
+215  TN+F+R4       3470.102     84  7108.205     7132.699     7486.565
+227  TNe+R3        3487.762     79  7133.525     7155.022     7489.364
+228  TNe+R4        3483.370     81  7128.740     7151.409     7493.588
+240  HKY+F+R3      3492.441     81  7146.881     7169.550     7511.729
+241  HKY+F+R4      3488.587     83  7143.173     7167.050     7517.029
+253  K2P+R3        3500.042     78  7156.085     7177.008     7507.419
+254  K2P+R4        3496.277     80  7152.554     7174.633     7512.897
+266  F81+F+R3      3538.933     80  7237.866     7259.945     7598.209
+267  F81+F+R4      3534.841     82  7233.683     7256.951     7603.034
+279  JC+R3         3542.016     77  7238.031     7258.391     7584.862
+280  JC+R4         3538.463     79  7234.927     7256.423     7590.765
+Akaike Information Criterion:           TIM2+F+R4
+Corrected Akaike Information Criterion: TN+F+R4
+Bayesian Information Criterion:         TN+F+R3
+Best-fit model: TN+F+R3 chosen according to BIC
+
+All model information printed to /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.model.gz
+CPU time for ModelFinder: 165.021 seconds (0h:2m:45s)
+Wall-clock time for ModelFinder: 169.155 seconds (0h:2m:49s)
+Generating 1000 samples for ultrafast bootstrap (seed: 781642)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3474.522
+Optimal log-likelihood: -3474.521
+Rate parameters:  A-C: 1.00000  A-G: 4.55230  A-T: 1.00000  C-G: 1.00000  C-T: 1.67906  G-T: 1.00000
+Base frequencies:  A: 0.193  C: 0.306  G: 0.281  T: 0.220
+Site proportion and rates:  (0.689,0.139) (0.271,1.701) (0.040,11.023)
+Parameters optimization took 1 rounds (0.016 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.051283 sec (of wall-clock time) 0.050191 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000374 sec (of wall-clock time) 0.000367 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3506.874
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.248 second
+Computing log-likelihood of 98 initial trees ... 0.205 seconds
+Current best score: -3469.577
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3466.193
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -3465.255
+Iteration 10 / LogL: -3467.971 / Time: 0h:0m:1s
+Iteration 20 / LogL: -3467.616 / Time: 0h:0m:1s
+Finish initializing candidate tree set (9)
+Current best tree score: -3465.255 / CPU time: 1.478
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -3465.235
+Iteration 30 / LogL: -3465.239 / Time: 0h:0m:2s (0h:0m:6s left)
+Iteration 40 / LogL: -3465.239 / Time: 0h:0m:3s (0h:0m:5s left)
+Iteration 50 / LogL: -3465.294 / Time: 0h:0m:4s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -3491.227
+Iteration 60 / LogL: -3465.237 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 70 / LogL: -3469.589 / Time: 0h:0m:5s (0h:0m:3s left)
+Iteration 80 / LogL: -3470.958 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 90 / LogL: -3472.271 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 100 / LogL: -3727.109 / Time: 0h:0m:7s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3491.227
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 109 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3465.235
+Optimal log-likelihood: -3465.234
+Rate parameters:  A-C: 1.00000  A-G: 4.55770  A-T: 1.00000  C-G: 1.00000  C-T: 1.71140  G-T: 1.00000
+Base frequencies:  A: 0.193  C: 0.306  G: 0.281  T: 0.220
+Site proportion and rates:  (0.691,0.147) (0.274,1.778) (0.035,11.648)
+Parameters optimization took 1 rounds (0.013 sec)
+BEST SCORE FOUND : -3465.234
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.488 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.splits.nex
+Total tree length: 1.921
+
+Total number of iterations: 109
+CPU time used for tree search: 8.130 sec (0h:0m:8s)
+Wall-clock time used for tree search: 8.364 sec (0h:0m:8s)
+Total CPU time used: 8.848 sec (0h:0m:8s)
+Total wall-clock time used: 9.226 sec (0h:0m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.splits.nex...
+38 taxa and 263 splits.
+Consensus tree written to /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.contree
+Reading input trees file /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.contree
+Log-likelihood of consensus tree: -3465.258
+
+Analysis results written to: 
+  IQ-TREE report:                /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.iqtree
+  Maximum-likelihood tree:       /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.treefile
+  Likelihood distances:          /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.splits.nex
+  Consensus tree:                /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.contree
+  Screen log file:               /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ffilter_HTF.log
+
+Date and Time: Mon Jul  8 01:12:35 2024

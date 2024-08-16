@@ -1,0 +1,12 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    saunders-608-24.local (AVX512, FMA3, 92 GB RAM)
+Command: iqtree -s /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/handm_all_HTF_samples_clustalo.fasta -nt AUTO -bb 1000 -alrt 1000 -pre /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/ftailocin_HTF
+Seed:    651775 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  8 01:07:11 2024
+Kernel:  AVX+FMA - auto-detect threads (48 CPU cores detected)
+
+Reading alignment file /SAN/ugi/plant_genom/jiajucui/4_mapping_to_pseudomonas/tailocin_extract/tree/fullinfo/handm_all_HTF_samples_clustalo.fasta ... Fasta format detected
+ERROR: Unknown sequence type.

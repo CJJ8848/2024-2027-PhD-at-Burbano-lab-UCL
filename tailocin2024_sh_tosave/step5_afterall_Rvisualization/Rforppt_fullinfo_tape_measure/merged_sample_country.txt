@@ -1,0 +1,69 @@
+samplename	country
+109.NOR_1990	Norway
+p23_A3	Germany
+33.ESP_1985b	Spain
+p26_E7	Germany
+HB0766	Germany
+p8_B9	Germany
+p5_D5	Germany
+120.RUS_1860	Russia
+PL0137	Sweden
+p6_B9	Germany
+p3_F8	Germany
+HB0737	Germany
+PL0068	Spain
+PL0026	Sweden
+PL0059	Spain
+86.NOR_1911_S7	Norway
+PL0220	United Kingdom
+PL0235	United Kingdom
+PL0027	Sweden
+p8_C7	Germany
+PL0139	Sweden
+PL0224	United Kingdom
+27.ESP_1975	Spain
+34.ESP_1985c_S36	Spain
+PL0046	Spain
+p27_D6	Germany
+PL0131	Spain
+p13_F3	Germany
+76.LTU_2009_S19	Lithuania
+PL0080	Spain
+PL0127	Spain
+p24_H2	Germany
+PL0073	Spain
+30.ESP_1983b	Spain
+64.GBR_1933b_S36	UK
+PL0210	United Kingdom
+PL0240	United Kingdom
+p8_H7	Germany
+PL0222	United Kingdom
+HB0840	Germany
+PL0230	United Kingdom
+HB0841	Germany
+75.LTU_1894_S30	Lithuania
+p27_F2	Germany
+PL0185	Germany
+HB0814	Germany
+p24_B5	Germany
+PL0051	Spain
+p8_E4	Germany
+p13_D10	Germany
+p22_C1	Germany
+p12_E2	Germany
+p26_B7	Germany
+p13_C1	Germany
+p4_D2	Germany
+p7_G11	Germany
+PL0102	Germany
+PL0001	Spain
+p25_C11	Germany
+p3_G9	Germany
+PL0042	Spain
+p9_C4	Germany
+p20_G9	Germany
+p22_D1	Germany
+p12_G7	Germany
+p6_A10	Germany
+PL0053	Spain
+PL0065	Spain
