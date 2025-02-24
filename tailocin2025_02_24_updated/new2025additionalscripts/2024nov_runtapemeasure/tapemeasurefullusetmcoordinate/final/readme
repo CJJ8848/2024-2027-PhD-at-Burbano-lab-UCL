@@ -1,0 +1,4 @@
+tape_end=$((ref_end-9677 + contig_start+1-123))
+#we have a 123 insertion (deletion since we treat tailocin p25.C2 as the query and  each isoalte as the ref when using minimap) in every strand '-' paf except >p12.G7_tape so I added the 2526 full p12.G7 back manually
+#after summary the lengthdiff, i found 24 are 2280, (2526-2280=246) and p12.G7 is 2526 and p4.D2 is 2403 (2526-2403=123), I double checked that there is a insertion of 123 like others, and also i extract 123bp more at the end, found its not aligned to TM OTu5 and the alignment of these 2403 bp against OTU5 TM shows there is only one 123bp missed in the middle with a perfect match at both ends... seems like its real in the assembly, but we dont know if the assembly from short reads is accurate enough to assemble repeats...
+#so far the length is like 27+1 2526, 24 2280 and one 2403
