@@ -1,3 +1,12 @@
+
+
+Update 2025 02/24
+
+1. 2024nov_runtapemeasure
+talia-backman: the running of HTF tape measure using both the big modern data from science paper and my own subset and historical data
+tapemeasurefullusetmcoordinate: the DNA and aa MSA of 51+1 p25.A12 
+
+
 Details of the strategy please refer to the notion note 'week 26 redo tailocin'
 
 all folders :tailocin_46  tailocin_46_fastq  tailocin_extract  tailocin_modern85 shfortailocin
@@ -53,9 +62,18 @@ step3: combine modern and tree building:
 #then build the tree qsub handm_tree.sh 
 
 Step4: tape measure
-step1_extracttapemeasure.shstep2_retrievetape_formodernNs.shstep3_1_2024_tailocin46tape.shstep3_1_generate55tapeMSA.shstep3_2_extractreads.shstep3_2_extractreadsfor10R1R2.shstep3_3_fish_historical_all.sh
 
-calculatelength.sh #calculate the length of 55 tape measure (they have 3 different lengths)treebuildtape.sh #build the trees (omega and omega&fullinfo (no Ns))
+
+step1_extracttapemeasure.sh
+step2_retrievetape_formodernNs.sh
+step3_1_2024_tailocin46tape.sh
+step3_1_generate55tapeMSA.sh
+step3_2_extractreads.sh
+step3_2_extractreadsfor10R1R2.sh
+step3_3_fish_historical_all.sh
+
+calculatelength.sh #calculate the length of 55 tape measure (they have 3 different lengths)
+treebuildtape.sh #build the trees (omega and omega&fullinfo (no Ns))
 fullinfoMSA.sh #to build the full info MSA for tree building
 
 
